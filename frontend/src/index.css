@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.ant-divider {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: bolder !important;
+}
+
+@keyframes greyscale-fade-in {
+  0% {
+    -webkit-filter: grayscale(0%);
+    -webkit-filter: opacity(100%);
+  }
+  100% {
+    -webkit-filter: grayscale(100%);
+    -webkit-filter: opacity(0%);
+  }
+}
+
+.death {
+  animation: greyscale-fade-in 3s ease-in forwards;
+}
